@@ -70,7 +70,7 @@ Write code to create these lines of text.
    
    
    
-3. I need 5 notebooks for school.
+3. I need 5 notebooks for school.  
    But the notebooks at school cost $20 each.
    ```c++
       int numNotbooks = 5;
@@ -79,7 +79,7 @@ Write code to create these lines of text.
    
    
    
-4. Please enter your name: *Jason*
+4. Please enter your name: *Jason*  
    Hello *Jason*, enjoy your stay!
    ```c++
       string name;
