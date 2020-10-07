@@ -185,7 +185,7 @@ Warnings and Errors:
 
 7. Fix this code given this error
    ```
-    main.cpp:6:41: error: expected ';' after expression
+    main.cpp:6:45: error: expected ';' after expression
     cout << "Today was my first SI Session!"
                                             ^
                                             ;
