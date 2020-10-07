@@ -175,7 +175,10 @@ Warnings and Errors:
      usin namespace std;
      
      int main() {
-        cout << "I am pretty sure there's nothing wrong with this set of code. I believe there's no errors here and that you should believe me when I say so;" cout << "KeepInMindThatBadWhiteSpacingDoesNotGiveYouAnErrorOrWarning,ButItWillAnnoyPeople" endl;
+        cout << "I am pretty sure there's nothing wrong with this set of code. 
+           I believe there's no errors here and that you should believe me when I 
+           say so;" cout << "KeepInMindThatBadWhiteSpacingDoesNotGiveYou
+           AnErrorOrWarning,ButItWillAnnoyPeople" endl;
      }
   ```
 
