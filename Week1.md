@@ -1,8 +1,8 @@
 # Week 1 #
 
-Input and Output
+Input and Output  
 
-What is the output?
+What is the output?  
 1.
   ```c++
      cout << "Hello world!" << endl;
@@ -58,7 +58,7 @@ What is the output?
 
 
 
-Write code to create these lines of text.
+Write code to create these lines of text.  
 1. I can print out a full line of text!
 
 
@@ -106,7 +106,7 @@ Comments examples:
    
    
    
-Warnings and Errors:
+Warnings and Errors:  
    What is a syntax error?
    
    What is a logic error?
@@ -184,15 +184,15 @@ Warnings and Errors:
 
 
 7. Fix this code given this error
-   ```
+ ```
     main.cpp:6:45: error: expected ';' after expression
     cout << "Today was my first SI Session!"
                                             ^
                                             ;
-   ```
+ ```
 
 
-   ```c++
+ ```c++
       #include <iostream>
       
       using namespace std;
@@ -200,21 +200,21 @@ Warnings and Errors:
       int main() {
          cout << "Today was my first SI Session!"
       }
-   ```
+ ```
 
    
 
 
 8. Fix this code given this error
-   ```
+ ```
    main.cpp: In function ‘int main()’:
     main.cpp:8:3: error: expected ‘,’ or ‘;’ before ‘cout’
     cout << nums << endl;
     ^~~~
-   ```
+ ```
    
    
-   ```c++
+ ```c++
       #include <iostream>
       
       using namespace std;
@@ -224,4 +224,4 @@ Warnings and Errors:
          
          cout << nums << endl;
       }
-   ```
+ ```
