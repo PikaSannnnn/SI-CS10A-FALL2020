@@ -130,7 +130,7 @@ Warnings and Errors:
 2.
   ```c++
      int count = 300
-     cout << "I have " << cout << " cakes" << endl;
+     cout << "I have " << count << " cakes" << endl;
   ```
 
 
