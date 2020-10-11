@@ -2,7 +2,7 @@
 
 Input and Output  
 
-Write down the output of the code.
+Write down the output of the code.  
 1.
    ```c++
      cout << "Hello world!" << endl;
