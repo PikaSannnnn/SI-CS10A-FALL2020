@@ -1,9 +1,8 @@
-# Week 3 #
+# Week 3
 
+  
 
-### Review ###  
-
-Write code to fulfill the requests. (Include the appropriate headers)
+### Review Write code to fulfill the requests. (Include the appropriate headers)
 ---
 1. Ask the user for their first and last name. Then output their name in the following format (lastname, firstname)
 
@@ -44,6 +43,9 @@ Write code to fulfill the requests. (Include the appropriate headers)
 * [Monday's Repl.it](https://repl.it/@PikaSannnnn/CS10-Environment-028#main.cpp)
 * [Tuesday's Repl.it](https://repl.it/@PikaSannnnn/CS10-Environment-029#main.cpp)
 
+
+### Branches ###
+---
 What are branches?  
 
 How do you set up a simple branch?  
@@ -74,4 +76,3 @@ Example:
         std::cout << "You are not yet born" << std::endl;
     }
 ```
-
