@@ -23,18 +23,18 @@ Comments examples:
    
    
 Warnings and Errors:  
-   What is a syntax error?
+   What is a syntax error?  
    
-   What is a logic error?
+   What is a logic error?  
    
-   What's the difference between a compile error and a runtime error?
+   What's the difference between a compile error and a runtime error?  
    
-   What is a warning?
+   What is a warning?  
    
    <br>
    
 Identify the errors.  
-1.
+1.  
   ```c++
      string name = "Justin";
      int age;
@@ -43,7 +43,7 @@ Identify the errors.
 
 
 
-2.
+2.  
   ```c++
      int count = 300
      cout << "I have " << count << " cakes" << endl;
@@ -51,7 +51,7 @@ Identify the errors.
 
 
 
-3.
+3.  
   ```c++
      int years = 1;
      cout << "There  is " << year << " year within a year" << endl;
@@ -59,7 +59,7 @@ Identify the errors.
   
   
   
-4.
+4.  
   ```c++
      int sum;
      sum = 3 * 10;
@@ -68,7 +68,7 @@ Identify the errors.
 
 
 
-5.
+5.  
   ```c++
      #include <iostream>
      
@@ -84,7 +84,7 @@ Identify the errors.
   
   
   
-6.
+6.  
   ```c++
      #include <iostream>
      
@@ -100,7 +100,7 @@ Identify the errors.
 
 
 
-7.
+7.  
    ```c++
       #include <iostream>
       
@@ -119,7 +119,7 @@ Identify the errors.
 
 
 
-8.
+8.  
    ```c++
       #include <iostream>
 
@@ -261,3 +261,5 @@ Precedence Practice:
 4. ((6 + 3 + pow(2,3)) - (10 + 3 * 1 / 6)) / 100
 
 
+* [Informal Quiz](https://docs.google.com/document/d/19HImOku2Z7rVlenNCCq_r4nv7TY5werul_3h5XbGBBM/edit)
+   - [Answers](https://docs.google.com/document/d/1Aj6isTXl9RggrgKhexCUQLxFDJKyHWdJJaFKMgFtsNY/edit?usp=sharing)
