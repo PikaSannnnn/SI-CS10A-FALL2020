@@ -74,3 +74,38 @@ Example:
         std::cout << "You are not yet born" << std::endl;
     }
 ```
+
+##### Practice  
+<br>
+1. Ask the user for an **integer** and output the number as a negative.
+
+<br>
+
+2. Ask the user for a positive **integer** and output the equivalent character with the number if and only if the character is a letter.
+
+<br>
+
+3. Ask the user to input 10 **numbers** and output all the even numbers.
+
+<br>
+
+4. Ask the user for a 6 letter word and store each letter in a **char**. Output only the consonants.
+
+<br>
+
+5. Ask the user for a 5 letter word and store each letter in a **char**. Output the *integer* sum of each vowel in the word.
+
+<br>
+
+6. Ask the user for an **integer** and output "__ is within range" if and only if the number is in between 10 and 20
+
+<br>
+
+7. Ask the user for a number and output "__ is equal" iff the number is equal to 50.0.
+
+<br>
+
+8. Ask the user for 3 numbers and output the highest and lowest number.
+
+##### Branch Matching
+* [Branch Matching](https://docs.google.com/document/d/1Dq7ayMhDSc_vmPu0N83ilkn_4HNFAltS4-pRoCeJTQY/edit)
