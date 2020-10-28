@@ -1,0 +1,27 @@
+# Week 4
+
+* [Repl.it Branching Challenge]()
+
+```c++
+
+// Session 028
+
+// TASK: Name Collection
+/* You will code with your groups 
+  Include all appropriate libraries
+
+  Ask the user for their full name.
+  If the first letters of their first and last name is not capitalized, capitalize it.
+  If any other names are uppercase, change them to lower case.
+  If there are any symbols other than a hyphen (-) or numbers, remove them from the name.
+  Output the person's full name. If the person's last name is more than 7 characters, print out the abbreviation.
+  On the next line, output the total letters in the name
+  If the name *Kris Miller* is entered, output "Hello Professor Kris Miller!"
+
+  Example Output (Jason jalepeno): 
+  Jason J.
+  Number of letters: 13 
+*/
+
+
+```
