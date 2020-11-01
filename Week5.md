@@ -193,16 +193,16 @@ Enter a 6 letter word: *Pizzas*
 <details>
     <summary>Ans</summary>
 <p>
-#####  
-#   #  
-#   #  
-#   #  
-#####  
-#####  
-#   #  
-#   #  
-#   #  
-#####  
+    #####<br>
+    #   #<br> 
+    #   #<br>
+    #   #<br>
+    #####<br>
+    #####<br>
+    #   #<br>
+    #   #<br>
+    #   #<br>
+    #####
 </p>
 </details>
 <details>
