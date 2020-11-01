@@ -93,14 +93,14 @@ Enter a character: *A*
 <details>
     <summary>Ans</summary>
 
-3
-9
-7
-2
-8
-9
-2
-6
+3  
+9  
+7  
+2  
+8  
+9  
+2  
+6  
 7
 </details>
 
