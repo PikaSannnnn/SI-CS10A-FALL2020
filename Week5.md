@@ -7,65 +7,101 @@
 * What are `for` loops?
 
 ### While Loops
+
+1. ```c++
+    const int passScore = 70;
+    int score = 0;
+    bool isPassing;
+
+    while (!isPassing) {
+        cout << "You! Shall! Not! Pass!" << endl;
+        if (score >= 70) { isPassing = true; }
+
+        score += 5;
+    }
+    ```
 <details>
-    <summary>1.</summary>
+    <summary>Ans</summary>
 
-```c++
-const int passScore = 70;
-int score = 0;
-bool isPassing;
-
-while (!isPassing) {
-    cout << "You! Shall! Not! Pass!" << endl;
-    if (score >= 70) { isPassing = true; }
-
-    score += 5;
-}
-```
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!  
+You! Shall! Not! Pass!
 </details>
-<details>
-    <summary>2.</summary>
 
-```c++
-int userNum = 0;
-char userChar;
+2. ```c++
+    int userNum = 0;
+    char userChar;
 
-cout << "Enter a number: ";
-cin >> userNum;
-cout << "Enter a character: ";
-cin >> userChar;
-
-while (userNum != userChar) {
-    cout << userNum << " != " << userChar << endl;
-    
     cout << "Enter a number: ";
     cin >> userNum;
     cout << "Enter a character: ";
     cin >> userChar;
-}
 
-cout << userNum << " == " << userChar << endl;
-```
-</details>
-<details>
-    <summary>3.</summary>
-
-```c++
-srand(123456789); 
-/*  Assume that the order of numbers is this:
-    12423, 5501239, 49507, 93852, 6802058, 9433049, 81208392, 345836, 7, 23093280, 23249823, 10
-*/
-bool isTen = false;
-int currNum = 0;
-
-while (!isTen) {
-    currNum = rand() % 10;
-    if (currNum == 0) { isTen = true; }
-    else {
-        cout << currNum << endl;
+    while (userNum != userChar) {
+        cout << userNum << " != " << userChar << endl;
+        
+        cout << "Enter a number: ";
+        cin >> userNum;
+        cout << "Enter a character: ";
+        cin >> userChar;
     }
-}
-```
+
+    cout << userNum << " == " << userChar << endl;
+    ```
+<details>
+    <summary>Ans</summary>
+
+Enter a number: *5*
+Enter a character: *a*
+5 != a
+Enter a number: *65*
+Enter a character: *a*
+65 != a
+Enter a number: *65*
+Enter a character: *A*
+65 == A
+</details>
+
+3. ```c++
+    srand(123456789); 
+    /*  Assume that the order of numbers is this:
+        12423, 5501239, 49507, 93852, 6802058, 9433049, 81208392, 345836, 7, 23093280, 23249823, 10
+    */
+    bool isTen = false;
+    int currNum = 0;
+
+    while (!isTen) {
+        currNum = rand() % 10;
+        if (currNum == 0) { isTen = true; }
+        else {
+            cout << currNum << endl;
+        }
+    }
+    ```
+<details>
+    <summary>Ans</summary>
+
+3
+9
+7
+2
+8
+9
+2
+6
+7
 </details>
 
 4. ```c++
