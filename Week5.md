@@ -63,14 +63,14 @@ You! Shall! Not! Pass!
 <details>
     <summary>Ans</summary>
 
-Enter a number: *5*
-Enter a character: *a*
-5 != a
-Enter a number: *65*
-Enter a character: *a*
-65 != a
-Enter a number: *65*
-Enter a character: *A*
+Enter a number: *5*  
+Enter a character: *a*  
+5 != a  
+Enter a number: *65*  
+Enter a character: *a*  
+65 != a  
+Enter a number: *65*  
+Enter a character: *A*  
 65 == A
 </details>
 
