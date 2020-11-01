@@ -6,9 +6,6 @@
 ### Group String Manipulation Activity
 ---
 ```c++
-
-// Session 028
-
 // TASK: Name Collection
 /* You will code with your groups 
   Include all appropriate libraries
@@ -35,3 +32,4 @@
 * How do you implement a while loop?  
 * While Loop Examples: https://repl.it/@PikaSannnnn/While-Loops#main.cpp   
   - Extra: Fix the while loops such that all the loops will run properly
+
