@@ -153,15 +153,15 @@ Enter a character: *A*
 
 #### Coding:
 1. Broken Calculator: You will create a calculator, a little more simplified than last week's challenge activity, that will give an unexpected answer. It will:
-    - Ask the user for __an operator__ (+/-) 
-        - If the user inputted an operator that is __not__ + or -, it should output *"Invalid Operation"* and continue to ask the user for an operator.
-    - Ask the user for __2 numbers__ (x/y)
+    - Ask the user for **an operator** (+/-) 
+        - If the user inputted an operator that is **not** + or -, it should output *"Invalid Operation"* and continue to ask the user for an operator.
+    - Ask the user for **2 numbers** (x/y)
     - Compute the **opposite** operation between the two numbers (x with y)
     - Output its **opposite** sign (e.g. 9 will become -9)
 
 ### For Loops
 1. ```c++
-    int letters[6];
+    char letters[6];
 
     cout << "Enter a 6 letter word: ";
     for (int i = 0; i < 6; i++) {
@@ -260,14 +260,14 @@ Enter a 6 letter word: *Pizzas*
 
 #### Coding:
 1. Guess the Number: You will be creating a fun "Guess the Number" game. It will:
-    - Generate a random number between __0 - 20__. (Use `srand(0)`)
+    - Generate a random number between **0 - 20**. (Use `srand(0)`)
     - Ask the user for a number.
-        - If the input matches the random number, you will output *"Correct!"* and __exit__
+        - If the input matches the random number, you will output *"Correct!"* and **exit**
             - **NOTE:** The game should exit, if correct, regardless of how many attemps the user has
         - Otherwise, you will output *"Incorrect! You have _ tries left."*
         - The user will have **5** attempts to guess the number
-        - When they have __3__ attempts remaining, give a hint of whether the number is __even__ or __odd__
-        - When they have __2__ attempt remaining, give a hint of whether it is __greater than or less than 10__
+        - When they have **3** attempts remaining, give a hint of whether the number is **even** or **odd**
+        - When they have **2** attempt remaining, give a hint of whether it is **greater than or less than 10**
     - If the user runs out of tries, output *"Better luck next time!"* and exit
     - *Hint: Should the `for` loop count up or down?*
-    - *Hint: How do get the number __20__ from rand()?*
+    - *Hint: How do get the number **20** from rand()?*
