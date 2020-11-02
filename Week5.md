@@ -135,19 +135,19 @@ Enter a character: *A*
 **INF**
 </details>
 <details>
-    <summary>5.</summary>
+    <summary></summary>
 
 </details>
 <details>
-    <summary>6.</summary>
+    <summary></summary>
 
 </details>
 <details>
-    <summary>7.</summary>
+    <summary></summary>
 
 </details>
 <details>
-    <summary>8.</summary>
+    <summary></summary>
 
 </details>
 
@@ -257,3 +257,14 @@ Enter a 6 letter word: *Pizzas*
     <summary></summary>
 
 </details>
+
+#### Coding:
+1. Guess the Number: You will be creating a fun "Guess the Number" game. It will:
+    - Generate a random number between __1 - 10__. (Use `srand(0)`)
+    - Ask the user for a number.
+        - If the input matches the random number, you will output *"Correct!"* and __exit__
+            * **NOTE:** The game should exit, if correct, regardless of how many attemps the user has
+        - Otherwise, you will output *"Incorrect! You have _ tries left."*
+        - The user will have **5** attempts to guess the number
+    - If the user runs out of tries, output *"Better luck next time!"*
+    * *Hint: Should the `for` loop count up or down?*
