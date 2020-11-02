@@ -260,11 +260,14 @@ Enter a 6 letter word: *Pizzas*
 
 #### Coding:
 1. Guess the Number: You will be creating a fun "Guess the Number" game. It will:
-    - Generate a random number between __1 - 10__. (Use `srand(0)`)
+    - Generate a random number between __0 - 20__. (Use `srand(0)`)
     - Ask the user for a number.
         - If the input matches the random number, you will output *"Correct!"* and __exit__
-            * **NOTE:** The game should exit, if correct, regardless of how many attemps the user has
+            - **NOTE:** The game should exit, if correct, regardless of how many attemps the user has
         - Otherwise, you will output *"Incorrect! You have _ tries left."*
         - The user will have **5** attempts to guess the number
-    - If the user runs out of tries, output *"Better luck next time!"*
-    * *Hint: Should the `for` loop count up or down?*
+        - When they have __3__ attempts remaining, give a hint of whether the number is __even__ or __odd__
+        - When they have __2__ attempt remaining, give a hint of whether it is __greater than or less than 10__
+    - If the user runs out of tries, output *"Better luck next time!"* and exit
+    - *Hint: Should the `for` loop count up or down?*
+    - *Hint: How do get the number __20__ from rand()?*
