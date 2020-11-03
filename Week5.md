@@ -6,6 +6,8 @@
 * What are `while` loops?
 * What are `for` loops?
 
+![S028 Loops]()
+
 ### While Loops
 
 1. ```c++
