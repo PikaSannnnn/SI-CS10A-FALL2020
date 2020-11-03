@@ -146,32 +146,55 @@ Your id is 9740917
 
 Write code to create the given output.
 1. I can print out a full line of text!
+<details>
+    <summary>Ans</summary>
 
-
+```c++
+cout << "I can print out a full line of text!" << endl;
+```
+</details>
 
 2. This store has 30 bottles of water in stock
    ```c++
       int bottles = 30;
    ```
-   
-   
-   
+<details>
+    <summary>Ans</summary>
+
+```c++
+cout << "This store has " << bottles << " of water in stock" << endl;
+```
+</details>
+
 3. I need 5 notebooks for school.  
    But the notebooks at school cost $20 each.
    ```c++
       int numNotbooks = 5;
       int pricePerBook = 20;
    ```
-   
-   
+<details>
+    <summary>Ans</summary>
+
+```c++
+cout << "I need " << numNotbooks << " for school." << endl;
+cout << "But the notebooks at school cost $" << pricePerBook << " each." << endl;
+```
+</details>
    
 4. Please enter your name: *Jason*  
    Hello *Jason*, enjoy your stay!
    ```c++
       string name;
    ```
+<details>
+    <summary>Ans</summary>
 
-
+```c++
+cout << "Please enter your name: ";
+cin >> name;
+cout << "Hello " << name << ", enjoy your stay!" << endl;
+```
+</details>
 
 5. Welcome to SI. Please sign in with your Username and SID.  
    Username: *foo1*  
@@ -179,8 +202,20 @@ Write code to create the given output.
    ```c++
       // Create your own variables for this problem
    ```
+<details>
+    <summary>Ans</summary>
 
+```c++
+string username;
+int sid = 0;
 
+cout << "Welcome to SI. Please sign in with your Username and SID." << endl;
+cout << "Username: "; 
+cin >> username;
+cout << "SID: "; 
+cin >> sid;
+```
+</details>
 
 6. Enter the name of your school: *UCR*  
    Please rate *UCR* out of 10.  
@@ -189,3 +224,18 @@ Write code to create the given output.
    ```c++
       // Create your own variables for this problem
    ```
+<details>
+    <summary>Ans</summary>
+
+```c++
+string school;
+int rating;
+
+cout << "Enter the name of your school: ";
+cin >> school;
+cout << "Please rate " << school << " out of 10." << endl;
+cin >> rating;
+cout << "You rated " << school << " a " << rating << "/10." << endl;
+```
+
+</details>
