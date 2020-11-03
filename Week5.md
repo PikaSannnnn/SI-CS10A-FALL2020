@@ -6,7 +6,10 @@
 * What are `while` loops?
 * What are `for` loops?
 
+###### Session 28:
 ![S028 Loops](https://github.com/PikaSannnnn/SI-CS10A-FALL2020/blob/main/Images/Session028%20W5S1.png)
+###### Session 29:
+![S029 Loops](https://github.com/PikaSannnnn/SI-CS10A-FALL2020/blob/main/Images/Session029%20W5S1.jpg)
 
 ### While Loops
 
@@ -136,13 +139,61 @@ Enter a character: *A*
 0-0-0-0  
 **INF**
 </details>
-<details>
-    <summary></summary>
 
+5. ```c++
+    bool isTrue = false;
+    int num1 = 0;
+    int num2 = 10;
+
+    while (isTrue || (num1 < 5 && num2 > 5)) {
+        cout << num1++ << " " << num2-- << endl;
+        if (isTrue) {
+            isTrue = false;
+        }
+        if (num1 == num2) { 
+            isTrue = true;
+            num1++;
+            num2--;
+        }
+    }
+    ```
+<details>
+    <summary>Ans</summary>
+
+0 10
+1 9
+2 8
+3 7
+4 6
+6 4
 </details>
-<details>
-    <summary></summary>
 
+6. ```c++
+    int input = 0;
+    int old = 0;
+
+    cout << "Enter a nunber. -1 to exit: ";
+    cin >> input;
+    while (input != -1) {
+        if (input < 0) {
+            cout << "New number: " << input * -1 << endl;
+        }
+        else {
+            cout << "I'll allow your number" << endl;
+        }
+        
+        cout << "Enter a nunber. -1 to exit: ";
+        cin >> input;
+    }
+    ```
+<details>
+    <summary>Ans</summary>
+
+Enter a nunber. -1 to exit: *1*
+I'll allow your number
+Enter a nunber. -1 to exit: *-2*
+New number: 2
+Enter a nunber. -1 to exit: *-1*
 </details>
 <details>
     <summary></summary>
@@ -160,6 +211,13 @@ Enter a character: *A*
     - Ask the user for **2 numbers** (x/y)
     - Compute the **opposite** operation between the two numbers (x with y)
     - Output its **opposite** sign (e.g. 9 will become -9)
+2. Number Tracker: You will create a system that will keep track of three positive numbers. It will:
+    - Ask the user for a **positive integer**
+    - If the number is higher than the highest number tracked, make this new number the highest, and the previous highest the second highest.
+    - If the number is higher than the second highest number tracked, make this new number the second highest.
+    - The system will continue to ask for **positive integers** until a **-1** is inputted, from which the system will exit
+    - *Hint: How do I compare and swap numbers?*
+    - *Hint: How do I make sure the input is always positive except for -1?*
 
 ### For Loops
 1. ```c++
