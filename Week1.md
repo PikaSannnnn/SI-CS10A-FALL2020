@@ -3,39 +3,47 @@
 Input and Output  
 
 Write down the output of the code.  
-1.
-   ```c++
+1. ```c++
      cout << "Hello world!" << endl;
    ```
+<details>
+    <summary>Ans</summary>
+
+Hello world!
+</details>
   
-  
-  
-2.
-   ```c++
+2. ```c++
      cout << "CS10A " << "will " << "be " << "fun!" << endl;
    ```
+<details>
+    <summary>Ans</summary>
+
+CS10A will be fun!
+</details>
   
-  
-  
-3.
-   ```c++
+3. ```c++
      int sum;
      sum = 10 + 3;
   
      cout << "The sum is: " << sum << endl;
    ```
+<details>
+    <summary>Ans</summary>
+
+The sum is: 13
+</details>
   
-  
-  
-4.
-   ```c++
+4. ```c++
      string name = "Bob"; int age = 20; cout << name; cout << " is "; cout << age; cout << " years old"; cout << endl;
+     // Please... Don't ever code like this
    ```
+<details>
+    <summary>Ans</summary>
+
+Bob is 20 years old
+</details>
   
-  
-  
-5.
-   ```c++
+5. ```c++
      cout << "It's";
      cout << "okay";
      cout << "to";
@@ -43,21 +51,26 @@ Write down the output of the code.
      cout << "mistakes";
      cout << endl;
    ```
-  
+<details>
+    <summary>Ans</summary>
 
+It'sokaytomake mistakes
+</details>
 
-6.
-   ```c++
+6. ```c++
      int id;
      cout << "Please enter an id: ";
      cin >> id;
      cout << "Thank you!" << endl;
    ```
+<details>
+    <summary>Ans</summary>
 
+Please enter an id: *124123*
+Thank you!
+</details>
 
-
-7.
-   ```c++
+7. ```c++
       string firstName = "Kris ";
       string lastName = "Miller";
       int courseId = 10;
@@ -66,11 +79,14 @@ Write down the output of the code.
       cout << "The professor for CS" << courseId << " is " << firstName + lastName << endl;
       cout << "\tMy section is " << sectionId << endl;
    ```
+<details>
+    <summary>Ans</summary>
 
+The professor for CS 10 is Kris Miller
+   My section is 3
+</details>
 
-
-8.
-   ```c++
+8. ```c++
       #include <iostream>
 
       using namespace std;
@@ -82,11 +98,24 @@ Write down the output of the code.
          return 0;
       }
    ```
+<details>
+    <summary>Ans</summary>
 
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+"BLAST OFF!"
+</details>
 
-
-9.
-   ```c++
+9. ```c++
       #include <iostream>
 
       using namespace std;
@@ -104,8 +133,16 @@ Write down the output of the code.
          return 0;
       }
    ```
+<details>
+    <summary>Ans</summary>
 
+*Chicken*
+*Ididntcrosstheroad*
+Hello Chicken!
+Your id is 9740917
 
+**NOTE: id was never initialized or written into... it contains garbage value**
+</details>
 
 Write code to create the given output.
 1. I can print out a full line of text!
