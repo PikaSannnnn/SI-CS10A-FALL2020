@@ -6,7 +6,7 @@
 * What are `while` loops?
 * What are `for` loops?
 
-![S028 Loops]()
+![S028 Loops](https://github.com/PikaSannnnn/SI-CS10A-FALL2020/blob/main/Images/Session028%20W5S1.png)
 
 ### While Loops
 
