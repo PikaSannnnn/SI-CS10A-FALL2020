@@ -302,7 +302,7 @@ Enter a 6 letter word: *Pizzas*
 </p>
 </details>
 <details>
-    <summary></summary>
+    <summary>Ans</summary>
 
 </details>
 <details>

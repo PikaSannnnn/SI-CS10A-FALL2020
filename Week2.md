@@ -23,53 +23,61 @@ Comments examples:
    
    
 Warnings and Errors:  
-   What is a syntax error?  
-   
-   What is a logic error?  
-   
-   What's the difference between a compile error and a runtime error?  
-   
-   What is a warning?  
-   
+   * What is a syntax error?  
+      Syntax error is any error within the code that may infringe on the rules of the programming language. This includes maybe missing a semicolon, or mispelling a function, or using a variable that does not exist yet. This will prevent the code from running until it is fixed.
+   * What is a logic error?  
+      Logic error, or a bug, is an error that occurs while the code is running where something doesn't mwatch what you had expected. This often does not cause the program to crash, but it does not mean it's not possible.  
+   * What's the difference between a compile error and a runtime error?  
+      Runtime error is any error that occurs while the program is running and can sometimes lead to the program to crash. This includes any bugs, logic errors, etc. Compile errors are any errors that occur before or while compiling the code and will always prevent the code from running. This can include syntax errors, etc.  
+   * What is a warning?  
+      A warninig is anytime there is a problem with either the code while writing it that won't stop the code from running (unless specified), but will be there to say that something can't be done, but is allowed. Although warnings don't cause the program to stop, they can sometimes warn you about potential logic or runtime errors that may or may not cause the program to crash. Additionally, sometimes warnings can develop into errors.  
+
    <br>
    
 Identify the errors.  
-1.  
-  ```c++
+1. ```c++
      string name = "Justin";
      int age;
      cout << "My name is " << age << endl;
   ```
+<details>
+    <summary>Ans</summary>
 
+Logic/Runtime error: age is used instead of age; age has not been set (garbage value)
+</details>
 
-
-2.  
-  ```c++
+2. ```c++
      int count = 300
      cout << "I have " << count << " cakes" << endl;
   ```
+<details>
+    <summary>Ans</summary>
 
+Syntax/Compile error: `ing count = 300` is missing a semicolon
+</details>
 
-
-3.  
-  ```c++
+3. ```c++
      int years = 1;
      cout << "There  is " << year << " year within a year" << endl;
   ```
+<details>
+    <summary>Ans</summary>
+
+Syntax/Compile error: the cout uses `year`, but it is not a variable. It should use `years` instead
+</details>
   
-  
-  
-4.  
-  ```c++
+4. ```c++
      int sum;
      sum = 3 * 10;
      cout << "3 + 10 = " << sum << endl;
   ```
+<details>
+    <summary>Ans</summary>
 
+Logic/Runtime error: `sum` is computing the product of 3 and 10 rather than adding
+</details>
 
-
-5.  
-  ```c++
+5. ```c++
      #include <iostream>
      
      usin namespace std;
@@ -81,11 +89,14 @@ Identify the errors.
         cout << "Enter the number of errors within this code: ";
      
   ```
+<details>
+    <summary>Ans</summary>
+
+Syntax/Compile error: `using` is mispelled; missing semicolon after `cin >> numErrors`
+Logic/Runtime error: input is asked before the prompt
+</details>
   
-  
-  
-6.  
-  ```c++
+6. ```c++
      #include <iostream>
      
      usin namespace std;
@@ -97,11 +108,13 @@ Identify the errors.
            AnErrorOrWarning,ButItWillAnnoyPeople" endl;
      }
   ```
+<details>
+    <summary>Ans</summary>
 
+Syntax/Compiler error: Missing semicolon before `cout <<`; Missing `<<` before `endl`
+</details>
 
-
-7.  
-   ```c++
+7. ```c++
       #include <iostream>
       
       using namespace std;
@@ -116,11 +129,13 @@ Identify the errors.
          return 1;
       } 
    ```
+<details>
+    <summary>Ans</summary>
 
+Compiler error: Attempting to write into (`cin`) into a constant
+</details>
 
-
-8.  
-   ```c++
+8. ```c++
       #include <iostream>
 
       using namespace;
@@ -133,8 +148,13 @@ Identify the errors.
          return 0;
       }
    ```
+<details>
+    <summary>Ans</summary>
 
-9. Fix this code given this error
+Syntax/Compiler error: missing the `std` in `using namespace`; `%` cannot be used with a decimal
+</details>
+
+9. Fix the code given this error
  ```
     main.cpp:6:45: error: expected ';' after expression
     cout << "Today was my first SI Session!"
@@ -152,9 +172,13 @@ Identify the errors.
          cout << "Today was my first SI Session!"
       }
  ```
+<details>
+    <summary>Ans</summary>
 
-   
-
+```c++
+   cout << "Today was my first SI Session!";
+```
+</details>
 
 10. Fix this code given this error
  ```
@@ -176,6 +200,13 @@ Identify the errors.
          cout << nums << endl;
       }
  ```
+<details>
+    <summary>Ans</summary>
+
+```c++
+int nums = 0;
+```
+</details>
 
  11. Fix this code given this error
   ```
@@ -223,6 +254,11 @@ Identify the errors.
       }
 
   ```
+<details>
+    <summary>Ans</summary>
+
+Add `using namespace std;`
+</details>
 
 
 Variables:  
