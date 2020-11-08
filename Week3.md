@@ -166,7 +166,7 @@ int main() {
 
 8. Write a code that asks the user for the length, width, and height of a cube. Then, output the area and perimeter of one of the sides, and the volume of the cube
 
-<<details>
+<details>
     <summary>Ans</summary>
 
 ```c++
@@ -359,7 +359,7 @@ int x = 0;
 
 cin >> x;
 
-if (x > 0 && x < 20) {
+if (x > 10 && x < 20) {
     cout << x << " is within range" << endl;
 }
 ```
