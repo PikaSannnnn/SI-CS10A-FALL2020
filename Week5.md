@@ -195,14 +195,6 @@ Enter a nunber. -1 to exit: *-2*
 New number: 2
 Enter a nunber. -1 to exit: *-1*
 </details>
-<details>
-    <summary></summary>
-
-</details>
-<details>
-    <summary></summary>
-
-</details>
 
 #### Coding:
 1. Broken Calculator: You will create a calculator, a little more simplified than last week's challenge activity, that will give an unexpected answer. It will:
@@ -301,22 +293,71 @@ Enter a 6 letter word: *Pizzas*
     #####
 </p>
 </details>
+
+5. ```c++
+    string word1;
+    string word2;
+
+    cin >> word1 >> word2;
+
+    if (word1.size() < word2.size()) {
+        for (unsigned i = word1.size(); i < word2.size(); i++) {
+            word1.push_back(word2.at(i-1));
+        }
+    }
+    else {
+        for (unsigned i = word2.size(); i < word1.size(); i++) {
+            word2.push_back(word1.at(i-1));
+        }
+    }
+
+    for (unsigned i = 0; i < word1.size(); i++) {
+        if (i % 2 == 1) {
+            word1.at(i) = word1.at(i - 1);
+        }
+    }
+
+    cout << word1 << " " << word2 << endl;
+    ```
 <details>
     <summary>Ans</summary>
 
+*cake*
+*chicken*
+cckkcce chicken
 </details>
-<details>
-    <summary></summary>
 
-</details>
-<details>
-    <summary></summary>
+6. ```c++
+    int x = 3;
+    int y = 5;
+    double output = 0.0;
+    string finale = "";
 
-</details>
-<details>
-    <summary></summary>
+    output = x;
+    for (int i = 0; i < y; i++) {
+        output *= x;
+        finale.push_back(i + 65);
+    }
+    cout << output << endl;
 
+    for (int i = 0; i < x; i++) {
+        output = (int)(output / y);
+        if (unsigned(i) < finale.size()){
+        finale.at(i) = (finale.at(i) + 32 - 1);
+        }
+    }
+
+    cout << output << endl;
+    cout << finale << endl;
+    ```
+<details>
+    <summary>Ans</summary>
+
+729
+5
+`abDE
 </details>
+
 
 #### Coding:
 1. Guess the Number: You will be creating a fun "Guess the Number" game. It will:

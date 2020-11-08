@@ -1,6 +1,7 @@
 # Week 4
 
 * [Repl.it Branching Challenge](https://repl.it/@PikaSannnnn/CS10-W4S1#main.cpp)
+  * [Sample Solutions](https://repl.it/@PikaSannnnn/CS10-W4S1-Sample-Solutions#main.cpp)
 
 
 ### Group String Manipulation Activity
@@ -25,6 +26,7 @@
 
 
 ```
+* [Sample Solutions](https://repl.it/@PikaSannnnn/string-sol#main.cpp)
 
 ### While Loops
 ---
