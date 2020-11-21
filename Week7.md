@@ -73,8 +73,9 @@ For each function:
 10. getline()
 
 #### Function Competition
+---
 * [Repl.it](https://repl.it/@PikaSannnnn/Functions#main.cpp)
-    * [Solutions w/ Explanations](https://repl.it/@PikaSannnnn/Functions-Solutions#main.cpp)'
+    * [Solutions w/ Explanations](https://repl.it/@PikaSannnnn/Functions-Solutions#main.cpp)
         * Press the `Run` button to see the code work. you can also test different inputs by going to the *inputs.txt* file and typing your own inputs
             * first line - number
             * second line - number
