@@ -4,7 +4,7 @@
 * Passing by Reference is written in the form `<data type>& var` in the parameters of a function.
 * Passing by Reference can only take a variable as an argument 
     * Passing in a literal will give an error
-    * <Memory Image>
+    * [Memory Image]()
 * Pass by Reference is slightly faster than Pass by Value (around 30x faster)
 * Pass by Reference also allows you to "return" more than one value
 * Pass by Reference allows you to modify your parameters directly, so be careful when choosing when to use pass by reference and when to pass by value and when to use a `const`
