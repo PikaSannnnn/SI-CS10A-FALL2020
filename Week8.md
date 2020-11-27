@@ -1,10 +1,26 @@
 # Week 8
+
+* [Quizlet](https://quizlet.com/549839803/cs10a-si-week-8-flash-cards/)
+
 ### Pass by Reference
 ---
 * Passing by Reference is written in the form `<data type>& var` in the parameters of a function.
 * Passing by Reference can only take a variable as an argument 
     * Passing in a literal will give an error
-    * [Memory Image]()
+    * How to distinguish allowed arguments during function calls for **Pass by Reference** and **Pass by Value**:
+        * Pass by reference has the word "Reference". When you refer to something, it needs to exist somewhere first. You can't refer to something that doesn't exist or hasn't been said before.
+        * Pass by value has the word "Value". When you're getting a value from something, it doesn't have to exist anywhere in order for you to get it.
+            * i.e. You can take something that someone had simply said to you, or you can take materials from someone or other things to make a copy of (this is plagarism btw, but it's an example)
+    * How it works in memory (Pass by value vs Pass by reference):
+        * <img src="Images/PbV_Img_01">
+        * When you pass by value, the function creates a new variable that is a copy of the value/varaible you placed in the argument.
+        * In the figure above, the behavior in memory can be seen. foo1's call corresponds to (1) and foo2's call corresponds to (2)  
+        * <img src="Images/PbR_Img_01">
+        * When you pass by reference, the function simply creates a nametag that will refer to what was passed in.
+            * An even better understanding/explanation of how pass by reference works requires understanding *memory management* and *pointers*
+                * Summing it up: Call by reference "points" at an address, variables have addresses, but literals do not. 
+                * NOTE: using `const <type>& var` allows literals, this is because it will create a shadow copy of whatever was passed in to be used. But **DO NOT** use literals here since it is bad practice
+        * In the figure above, the behavior in memory can be seen with variable and literal function call arguments. foo1's call corresponds to (1) and foo2's call corresponds to (2)
 * Pass by Reference is slightly faster than Pass by Value (around 30x faster)
 * Pass by Reference also allows you to "return" more than one value
 * Pass by Reference allows you to modify your parameters directly, so be careful when choosing when to use pass by reference and when to pass by value and when to use a `const`
@@ -22,7 +38,10 @@
             { // This bracket has access to a and b
                 int b = 0;
                 {
-                    int c = 0; // This bracket has access a, b, c
+                    int c = 0; // This bracket has access to a, b, c
+                }
+                {
+                    int d = 0; // this bracket has access to a, b, d
                 }
             }
             ```
