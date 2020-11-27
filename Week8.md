@@ -12,10 +12,10 @@
         * Pass by value has the word "Value". When you're getting a value from something, it doesn't have to exist anywhere in order for you to get it.
             * i.e. You can take something that someone had simply said to you, or you can take materials from someone or other things to make a copy of (this is plagarism btw, but it's an example)
     * How it works in memory (Pass by value vs Pass by reference):
-        * <img src="Images/PbV_Img_01.png">
+        * <img src="Images/PbV_Img_01.png" width=400>
         * When you pass by value, the function creates a new variable that is a copy of the value/varaible you placed in the argument.
         * In the figure above, the behavior in memory can be seen. foo1's call corresponds to (1) and foo2's call corresponds to (2)  
-        * <img src="Images/PbR_Img_01.png">
+        * <img src="Images/PbR_Img_01.png" width=400>
         * When you pass by reference, the function simply creates a nametag that will refer to what was passed in.
             * An even better understanding/explanation of how pass by reference works requires understanding *memory management* and *pointers*
                 * Summing it up: Call by reference "points" at an address, variables have addresses, but literals do not. 
