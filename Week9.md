@@ -11,9 +11,9 @@
 * For now, vectors simply take up a block of memory, and increasing the size simply increases its memory block
 
 * MW Session's One Thing
-<img src="../Images/V_8_28.png">
+<img src="Images/V_8_28.png">
 * TR Session's One Thing
-<img src="../Images/V_8_29.png">
+<img src="Images/V_8_29.png">
 
 #### Vector Functions
 * at() - returns value at provided index
