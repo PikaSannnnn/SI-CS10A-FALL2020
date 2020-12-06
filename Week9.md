@@ -40,4 +40,4 @@
 * Coding Problems
     * [Basic](https://repl.it/@PikaSannnnn/W9b#main.cpp)
     * [Difficult](https://repl.it/@PikaSannnnn/W9d#main.cpp)
-    * [EXTRA (WIP)](https://repl.it/@PikaSannnnn/W9e#main.cpp)
+    * [EXTRA](https://repl.it/@PikaSannnnn/W9e#main.cpp)

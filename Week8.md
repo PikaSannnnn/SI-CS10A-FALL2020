@@ -96,8 +96,8 @@
     * **EXTRA** - Problems that focus on thinking out of the box. These can vary in difficulty as the focus isn't the hardness, but rather the use of what you've learned
 
 ##### Reading Code
-* [Basic]()
-* [Difficult]()
+* [Basic (WIP)]()
+* [Difficult (WIP)]()
 
 ##### Writing Code
 * [Basic](https://repl.it/@PikaSannnnn/w8b#main.cpp)
