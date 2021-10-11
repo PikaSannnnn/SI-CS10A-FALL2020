@@ -1,4 +1,4 @@
-# CS10A-SI 
+# CS10A-SI (ARCHIVED)
 
 ## Times
 * MW 11am - 12pm
